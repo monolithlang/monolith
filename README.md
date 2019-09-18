@@ -1,4 +1,5 @@
 # The Monolith Language
+Monolith is very similar to the C programming language, most of the points are taken from Rust (memory management) and Go (interfaces), Monolith does not have OOP in full, but uses interfaces just like in Go. Monolith is broadcasted in C (in the future it will be possible to broadcast it into the native code) which allows you to get a very small file size on the output.
 
 ## Futures
 * Fast compilation
@@ -8,6 +9,15 @@
 * Easy cross platform compilation (Linux, Windows, MacOS, BSD)
 
 First version of Monolith plan release for February 2019. Right now Monolith in alpha stage.
+
+## Monolith solves next problems
+Monolith is similar to the memory model of Rust. Monolith eliminates the following memory access security issues:
+- saving the pointer after freeing memory (use-after-free)
+- dereference null pointer
+- using of uninitialized memory
+- the program attempting to free the same cell twice (double-free)
+- buffer overflow
+Monolith does not use garbage collection
 
 ## Compiler
 Monolith use Tiny C Compiler (TCC) as backend.<br>

@@ -17,7 +17,6 @@ Monolith is similar to the memory model of Rust. Monolith eliminates the followi
 - using of uninitialized memory
 - the program attempting to free the same cell twice (double-free)
 - buffer overflow
-Monolith does not use garbage collection
 
 ## Compiler
 Monolith use Tiny C Compiler (TCC) as backend.<br>

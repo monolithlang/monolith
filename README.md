@@ -1,7 +1,7 @@
 # The Monolith Language
 Release plan on 2021.
 
-Monolith is very similar to the C programming language, most of the points are taken from Rust (memory management) and Go (interfaces), Monolith does not have OOP in full, but uses interfaces just like in Go. Monolith is broadcasted in C (in the future it will be possible to broadcast it into the native code) which allows you to get a very small file size on the output.
+Monolith is very similar to the C programming language, most of the points are taken from Rust (memory management) and Go (interfaces), Monolith does not have OOP in full, but uses interfaces just like in Go. Monolith is transpiled to C (in the future it will be possible to transpile it into the native code) which allows you to get a very small file size on the output.
 
 ## Futures
 * Fast compilation

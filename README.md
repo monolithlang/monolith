@@ -1,16 +1,16 @@
 # The Monolith Language
-Release plan on 2021.
+Release plan on 2021. I'm bring back to develop after November 16 with some news!
 
-Monolith is very similar to the C programming language, most of the points are taken from Rust (memory management) and Go (interfaces), Monolith does not have OOP in full, but uses interfaces just like in Go. Monolith is transpiled to C (in the future it will be possible to transpile it into the native code) which allows you to get a very small file size on the output.
+Monolith is very similar to the C programming language, some constructions taked from C, most of the points are taken from Rust (memory management) and Go (interfaces), Monolith does not have OOP in full, but uses interfaces just like in Go. Monolith is transpiled to C (in the future it will be possible to transpile it into the native code) which allows you to get a very small file size on the output.
 
 ## Futures
-* Fast compilation
-* Perfomance (within 3-4% of C)
+* Fast compilation (0.2/sec)
+* Perfomance (within 1-2% of C)
 * Safety: no null, no global, no UB (Undefined Behavior)
-* Translation from Monolith to C
+* Transpiling from Monolith to C and C to Monolith.
 * Easy cross platform compilation (Linux, Windows, MacOS, BSD)
 
-First version of Monolith plan release for February 2019. Right now Monolith in alpha stage.
+First version of Monolith plan release for February 2021. Right now Monolith in alpha stage (written for 5%).
 
 ## Monolith solves next problems
 Monolith is similar to the memory model of Rust. Monolith eliminates the following memory access security issues:
@@ -24,7 +24,8 @@ Monolith is similar to the memory model of Rust. Monolith eliminates the followi
 Monolith use Tiny C Compiler (TCC) as backend.<br>
 For building Monolith you'll need Clang or GCC or TCC:
 * Clang (http://releases.llvm.org/download.html) 
-* GCC (https://gcc.gnu.org/install/binaries.html).
+* GCC (https://gcc.gnu.org/install/binaries.html)
+* TCC (https://bellard.org/tcc/)
 
 ## Progress:
 You can track progress by project https://github.com/orgs/monolithlang/projects/1<br>

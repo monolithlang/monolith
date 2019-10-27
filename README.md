@@ -31,8 +31,6 @@ For building Monolith you'll need Clang or GCC or TCC:
 You can track progress by project https://github.com/orgs/monolithlang/projects/1<br>
 
 ![Kernel](https://cdn.discordapp.com/attachments/274567887623159808/623438386891587584/unknown.png)
-![Errors](https://cdn.discordapp.com/attachments/274567887623159808/623448684079742987/unknown.png)
-![Token tracing](https://cdn.discordapp.com/attachments/274567887623159808/623449038464876545/unknown.png)
 
 ## Contact (Primary community)
 Discord  - https://discord.gg/w5W76t6<br>

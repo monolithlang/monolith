@@ -2,7 +2,7 @@
 Release plan on 2021 or 2022 (plans can change quickly).
 
 Monolith is very similar to the C Programming Language, some princips taked from C and Rust.
-I wanna make an ideal and powerful programming language for developing maintable software. As of right now, I don’t  know any languages suitable for my purposes.
+I wanna make an ideal and powerful programming language for developing maintainable software. As of right now, I don’t  know any languages suitable for my purposes.
 
 ## Futures
 - Fast and optimized compilation

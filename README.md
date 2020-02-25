@@ -24,8 +24,11 @@ Memory model similar to Rust. Monolith eliminates the following memory access se
 - the program attempting to free the same cell twice (double-free)
 - buffer overflow
 
-## Progress:
+## Progress
 You can track progress by primary (first) project: https://github.com/orgs/monolithlang/projects/1<br>
+
+## Documentation
+Will be updated gradually: https://0x9ef.gitbook.io/monolith/
 
 ## Contact (primary community)
 Discord - https://discord.gg/w5W76t6<br>

@@ -25,10 +25,10 @@ Memory model similar to Rust. Monolith eliminates the following memory access se
 - buffer overflow
 
 ## Progress
-You can track progress by primary (first) project: https://github.com/orgs/monolithlang/projects/1<br>
+https://github.com/orgs/monolithlang/projects/1<br>
 
 ## Documentation
-Will be updated gradually: https://0x9ef.gitbook.io/monolith/
+https://monolithlang.github.io/
 
 ## Contact (primary community)
 Discord - https://discord.gg/w5W76t6<br>
